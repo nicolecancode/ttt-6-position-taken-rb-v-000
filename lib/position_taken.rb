@@ -7,5 +7,3 @@ def position_taken?(board, index_number)
      true
    end
 end
-
-puts position_taken?(board, 6)
