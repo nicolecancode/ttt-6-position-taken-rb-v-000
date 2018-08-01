@@ -6,6 +6,3 @@ def position_taken?(board, index_number)
   else
     print true
 end
-
-
-
