@@ -3,7 +3,7 @@
 def position_taken?(board, index_number)
     index = board[index_number.to_i - 1]
 
-    if 
+    if
     index != " " && index != "" && index != nil
     print false
 
