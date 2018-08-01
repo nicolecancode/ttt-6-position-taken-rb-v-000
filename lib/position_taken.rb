@@ -6,10 +6,9 @@ def position_taken?(board, index_number)
     if
     index != " " && index != "" && index != nil
     print false
-
-  else
+    else
     index == "X" || "O"
-    print true
+  end
 end
 
 board = [" ", " ", " ", "", "nil", " ", " ", " ", "O"]
