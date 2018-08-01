@@ -2,8 +2,14 @@
 
 def position_taken?(board, index_number)
     index = board[index_number.to_i - 1]
-    index != " " && index != "" && index != nil
 
+    if 
+    index != " " && index != "" && index != nil
+    print false
+
+  else
+    index == "X" || "O"
+    print true
 end
 
 board = [" ", " ", " ", "", "nil", " ", " ", " ", "O"]
